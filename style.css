@@ -34,6 +34,7 @@ body {
 /* Reusable code*/
 .page {
   max-width: 1200px;
+  height: auto;
   margin: 0 auto;
   padding: 20px;
 }
@@ -71,3 +72,49 @@ a:hover,
 a:active {
   cursor: pointer;
 }
+
+/* Hero Section */
+
+.hero-box {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 700;
+  height: auto;
+  max-width: 400px;
+}
+
+.hero-secondary-text {
+  height: auto;
+  max-width: 450px;
+  flex-shrink: 0;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 700;
+  height: 40px;
+  width: 130px;
+}
+.hero-img {
+  width: 550px;
+  height: auto;
+}
+
+/* Information Header Section */
