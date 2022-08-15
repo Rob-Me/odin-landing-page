@@ -1,0 +1,73 @@
+/* 
+COLORS:
+#1f2937 -Hero,Footer,header text,quote
+#f9faf8 - Text
+#3882f6 - button
+#e5e7eb - Quote section background color
+
+TEXT SIZES
+48px - Hero Main 
+36px - info header, quote
+24px - header, logo 
+18px - hero secondary 
+
+FONT
+- roboto
+
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f2937;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+/* Reusable code*/
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Block */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.link-box {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0 1 50%;
+  gap: 20px;
+}
+
+li {
+  display: block;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+a:hover,
+a:active {
+  cursor: pointer;
+}
